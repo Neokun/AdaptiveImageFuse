@@ -36,10 +36,10 @@ def replaceWithSsim(I, P, win_size=None, threshold=None):
 
     return I_new
 
-I = cv2.imread('./Input/10_MS.png', cv2.IMREAD_GRAYSCALE)
-cv2.imshow("test",I)
-cv2.waitKey(0)
-P = cv2.imread('./Input/10_PAN.png', cv2.IMREAD_GRAYSCALE)
-cv2.imshow("test",P)
-cv2.waitKey(0)
-replaceWithSsim(I, P, 7)
+# I = cv2.imread('./Input/10_MS.png', cv2.IMREAD_GRAYSCALE)
+# cv2.imshow("test",I)
+# cv2.waitKey(0)
+# P = cv2.imread('./Input/10_PAN.png', cv2.IMREAD_GRAYSCALE)
+# cv2.imshow("test",P)
+# cv2.waitKey(0)
+# replaceWithSsim(I, P, 7)
