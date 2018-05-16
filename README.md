@@ -1,0 +1,2 @@
+# AdaptiveImageFuse
+Image Processing project
